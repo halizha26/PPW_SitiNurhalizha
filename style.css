@@ -1,0 +1,79 @@
+/* Gaya keseluruhan situs web */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 12, 150);
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(254, 148, 198);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gaya untuk gambar di bagian tentang kami */
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 50%; 
+    display: block;
+    margin: 0 auto;
+}
+
+/* Gaya untuk layanan */
+
+#services {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.service-item {
+    flex-basis: 30%; 
+    margin-bottom: 20px;
+}
+
+.service-item img {
+    width: 100%; 
+    display: block;
+}
+
+.service-item p {
+    text-align: center;
+}
